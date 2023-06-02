@@ -1,0 +1,37 @@
+
+body {
+    text-align: center;
+}
+input, label {
+    padding: 5px;
+    margin: 5px;
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    opacity: 0.6;
+}
+.button:hover {
+    color: black;
+    background-color: rgb(233, 220, 220);
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+h1 {
+    font-size: 100px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-weight: 100;
+    color: rgb(221, 197, 160)
+}
+form {
+    opacity: 0.7;
+}
